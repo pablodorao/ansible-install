@@ -1,0 +1,9 @@
+---
+- name: Instalar Google Chrome MSI 
+  hosts: all 
+ 
+  tasks:
+    - name: Install MSI
+      win_msi: 
+        path: 'C:\Google.msi'
+        state: present
