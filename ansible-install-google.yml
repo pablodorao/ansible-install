@@ -4,6 +4,6 @@
  
   tasks:
     - name: Install MSI
-      win_msi: 
+      win_package: 
         path: 'C:\Google.msi'
         state: present
